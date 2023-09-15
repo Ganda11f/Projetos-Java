@@ -22,6 +22,8 @@ public class atividade9 {
 		}else if (resultado > 25 && resultado < 30) {
 			System.out.println("Acima do peso");
 		} else if (resultado > 30 ){
+			System.out.println("Obeso");
+		}else {
 			System.out.println("Error! valor inválido.");
 		}
 	}
