@@ -15,7 +15,11 @@ public class atividade2 {
 		if (sexo.equals ("F") && ecp.equals("casada")) {
 			System.out.println("Anos de casamento:");
 			double anos = input.nextFloat();
+			System.out.println("\nNome: "+nome+"\n Sexo: "+sexo+"\n Estado cívil: "+ecp+"\n Anos de casamento: "+anos);
+		}else {
+			System.out.println("\nNome: "+nome+"\n Sexo: "+sexo+"\n Estado cívil: "+ecp);
 		}
+		
 	}
 
 }
