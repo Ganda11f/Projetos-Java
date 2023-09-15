@@ -52,14 +52,12 @@ public class atividade11 {
 				System.out.println("Obteve a média de exercícios de : "+ media);
 				System.out.println("Obteve a média de aproveitamento de: "+ Ma);
 				System.out.println("O aluno está Reprovado: D");
-			} else if(ma < 40){
+			} else{
 				System.out.println("O aluno " + aluno);
 				System.out.println("Obteve as notas: "+nota1 +" "+ nota2 +" "+ nota3);
 				System.out.println("Obteve a média de exercícios de : "+ media);
 				System.out.println("Obteve a média de aproveitamento de: "+ Ma);
 				System.out.println("O aluno está Reprovado: E");
-			} else {
-				System.out.println("Valor inválido");
 			}
 			
 			
