@@ -7,7 +7,7 @@ public static void main (String args[]) {
 	System.out.println("Digite um valor: ");
 	int num = input.nextInt();
 	
-	if (num %2 == 0) {
+	if (num > 0) {
 		System.out.println("O dobro de "+num+" é "+num*2);
 	}else {
 		System.out.println("O triplo de "+num+" é "+num*3);
